@@ -14,3 +14,5 @@ Você pode contribuir com esse diretório de duas formas:
 
 * Encontrou um algortimo legal e quer compartilhar ele com a gente crie uma [issue](https://github.com/OESTIDigital/code-kata/issues) descrevendo como ele funciona. 
 * Quer se divertir um pouco? Escolha um desafio e uma lingaugem de programação, resolva ele e enviu um pull request com a solução. Não esqueça de criar um arquivo README.md com informações e detalhes da solução
+
+()[]
