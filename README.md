@@ -10,9 +10,10 @@ Se você quer entender um pouco mais o que é code kata nós separamos alguns ar
 - http://pt.slideshare.net/mauriciokm/coding-dojo-40198874
 - https://pt.wikipedia.org/wiki/Kata_(artes_marciais)
 
+##### Quer contribuir com esse projeto? 
+Encontre um algorítimo legal e compartilhe ele com a gente crie uma [issue](https://github.com/OESTIDigital/code-kata/issues) descrevendo como ele funciona.
 
 ##### Encontrou um desafio legal e quer resolver ele:
-
 
 - Faça um (fork)[https://github.com/OESTIDigital/code-kata/edit/master/README.md#fork-destination-box] do projeto.
 - Crie uma pasta com o nome do desafio, a linguagem de programação que você escolheu e o seu nome do usuário no GitHub.
@@ -21,11 +22,6 @@ Se você quer entender um pouco mais o que é code kata nós separamos alguns ar
 - Crie um README.md com informações sobre a solução do desafio.
   - Referencias com detalhes do desafio, como resolveu, se teve algum problema, etc. 
 - Envie um pull request com a solução
-
-
-##### Quer contribuir com esse projeto? 
-Encontre um algorítimo legal e compartilhe ele com a gente crie uma [issue](https://github.com/OESTIDigital/code-kata/issues) descrevendo como ele funciona.
-
 
 ![desafio-aceito](https://cloud.githubusercontent.com/assets/2614909/16933308/b4909000-4d22-11e6-8cf2-42c78f687737.png)
 
