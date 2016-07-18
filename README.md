@@ -16,7 +16,7 @@ Encontre um algorítimo legal e compartilhe ele com a gente crie uma [issue](htt
 ##### Encontrou um desafio legal e quer resolver ele:
 
 - Faça um (fork)[https://github.com/OESTIDigital/code-kata/edit/master/README.md#fork-destination-box] do projeto.
-- Crie uma pasta com o nome do desafio, a linguagem de programação que você escolheu e o seu nome do usuário no GitHub.
+- Crie uma pasta com o nome do desafio, a linguagem de programação que você escolheu e o nome do seu usuário no GitHub.
   - Ex: bubble_sort_python_johnidm.
 - Escolha uma linguagem de programação e resolva o desafio.
 - Crie um README.md com informações sobre a solução do desafio.
@@ -24,5 +24,3 @@ Encontre um algorítimo legal e compartilhe ele com a gente crie uma [issue](htt
 - Envie um pull request com a solução
 
 ![desafio-aceito](https://cloud.githubusercontent.com/assets/2614909/16933308/b4909000-4d22-11e6-8cf2-42c78f687737.png)
-
-
