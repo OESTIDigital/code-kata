@@ -16,4 +16,4 @@ Você pode contribuir com esse diretório de duas formas:
 * Quer se divertir um pouco? Escolha um desafio e uma lingaugem de programação, resolva ele e enviu um pull request com a solução. Não esqueça de criar um arquivo README.md com informações e detalhes da solução
 
 
-<div style="text-align:center"><img src ="..." />![desafio-aceito](https://cloud.githubusercontent.com/assets/2614909/16933308/b4909000-4d22-11e6-8cf2-42c78f687737.png)</div>
+<div style="text-align:center">![desafio-aceito](https://cloud.githubusercontent.com/assets/2614909/16933308/b4909000-4d22-11e6-8cf2-42c78f687737.png)</div>
