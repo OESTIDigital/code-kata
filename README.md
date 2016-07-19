@@ -24,4 +24,7 @@ Encontre um algorítimo legal e compartilhe ele com a gente crie uma [issue](htt
   - Referencias com detalhes do desafio, como resolveu, se teve algum problema, etc. 
 - Envie um [pull request](https://github.com/OESTIDigital/code-kata/pulls) com o código que você utilizou para resolver o desafio.
 
+> Dica: você pode usar uma linguagem esotérica -https://pt.wikipedia.org/wiki/Lista_de_linguagens_de_programa%C3%A7%C3%A3o
+
+
 ![desafio-aceito](https://cloud.githubusercontent.com/assets/2614909/16933308/b4909000-4d22-11e6-8cf2-42c78f687737.png)
