@@ -1,16 +1,19 @@
 package io.github.oestidigital.onvis;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class CharToNumber {
-	
-	public static Object[] calcCharToNumber(String comet, String group){
+
+	public static Object[] calcCharToNumber(String comet, String group) {
 		Object[] comGro = new Object[2];
-		int comet1=1, grp=1;
+		int comet1 = 1, grp = 1;
 		char crt;
-		for(int i=0; i < comet.length(); i++){
+		for (int i = 0; i < comet.length(); i++) {
 			crt = comet.charAt(i);
 			comet1 *= convertCharToNumber(crt);
 		}
-		for(int i=0; i < group.length(); i++){
+		for (int i = 0; i < group.length(); i++) {
 			crt = group.charAt(i);
 			grp *= convertCharToNumber(crt);
 		}
@@ -18,63 +21,37 @@ public class CharToNumber {
 		comGro[1] = grp;
 		return comGro;
 	}
-	
-	public static int convertCharToNumber(char carcater){
-		switch (carcater) {
-		case 'A':
-			return 1;
-		case 'B':
-			return 2;
-		case 'C':
-			return 3;
-		case 'D':
-			return 4;
-		case 'E':
-			return 5;
-		case 'F':
-			return 6;
-		case 'G':
-			return 7;
-		case 'H':
-			return 8;
-		case 'I':
-			return 9;
-		case 'J':
-			return 10;
-		case 'K':
-			return 11;
-		case 'L':
-			return 12;
-		case 'M':
-			return 13;
-		case 'N':
-			return 14;
-		case 'O':
-			return 15;
-		case 'P':
-			return 16;
-		case 'Q':
-			return 17;
-		case 'R':
-			return 18;
-		case 'S':
-			return 19;
-		case 'T':
-			return 20;
-		case 'U':
-			return 21;
-		case 'V':
-			return 22;
-		case 'W':
-			return 23;
-		case 'X':
-			return 24;
-		case 'Y':
-			return 25;
-		case 'Z':
-			return 26;
-		default:
-			return 0;
-		}
+
+	public static Integer convertCharToNumber(char caracter) {
+		Map<Character, Integer> mapa = new HashMap<Character, Integer>();
+
+		mapa.put('A', 1);
+		mapa.put('B', 2);
+		mapa.put('C', 3);
+		mapa.put('D', 4);
+		mapa.put('E', 5);
+		mapa.put('F', 6);
+		mapa.put('G', 7);
+		mapa.put('H', 8);
+		mapa.put('I', 9);
+		mapa.put('J', 10);
+		mapa.put('K', 11);
+		mapa.put('L', 12);
+		mapa.put('M', 13);
+		mapa.put('N', 14);
+		mapa.put('O', 15);
+		mapa.put('P', 16);
+		mapa.put('Q', 17);
+		mapa.put('R', 18);
+		mapa.put('S', 19);
+		mapa.put('T', 20);
+		mapa.put('U', 21);
+		mapa.put('V', 22);
+		mapa.put('W', 23);
+		mapa.put('X', 24);
+		mapa.put('Y', 25);
+		mapa.put('Z', 26);
+
+		return mapa.get(caracter);
 	}
 }
