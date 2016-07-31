@@ -5,7 +5,7 @@ end
 
 function calcula_produto_letra(palavra)   
 	
-	primeira_palavra = string.sub(palavra, 1, 1)
+    primeira_palavra = string.sub(palavra, 1, 1)
     local produto = retorna_numero_por_letra(primeira_palavra)
 
     for i = 2, string.len(palavra) do
