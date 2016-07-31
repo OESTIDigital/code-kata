@@ -5,17 +5,17 @@ function retorna_numero_por_letra(letra)
     return letras[letra]
 end
 
-function soma_letra(palavra)   
+function calcula_produto_letra(palavra)   
 	
 	primeira_palavra = string.sub(palavra, 1, 1)
-    local soma = retorna_numero_por_letra(primeira_palavra)
+    local produto = retorna_numero_por_letra(primeira_palavra)
 
     for i = 2, string.len(palavra) do
         local letra = string.sub(palavra, i, i)
-        soma = soma * retorna_numero_por_letra(letra)
+        produto = produto * retorna_numero_por_letra(letra)
     end
 
-    return soma
+    return produto
 end
 
 function retornar_resto_45(numero)
@@ -27,10 +27,10 @@ local cometa = {"AMARELO", "VERMELHO", "PRETO",  "AZUL"}
 
 for i=1,4 do
 
-    local total_soma_grupo = soma_letra(grupo[i])
-    local total_soma_cometa = soma_letra(cometa[i])
+    local total_produto_grupo = calcula_produto_letra(grupo[i])
+    local total_produto_cometa = calcula_produto_letra(cometa[i])
     
-    local sera_levado = retornar_resto_45(total_soma_cometa) == retornar_resto_45(total_soma_grupo)
+    local sera_levado = retornar_resto_45(total_produto_cometa) == retornar_resto_45(total_produto_grupo)
     
     if sera_levado then
        print("O grupo " .. grupo[i] .. " será levado")
