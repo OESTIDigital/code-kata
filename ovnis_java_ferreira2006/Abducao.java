@@ -52,12 +52,14 @@ public class Abducao {
     			}
         	System.out.println(grupos[i] + " = " + resultadoGrupo + " % 45 = " + resultadoGrupo % 45);
         	
+        	
+        	// Teste de abdução
         	if (resultadoCometa % 45 == resultadoGrupo % 45) {
         		System.out.println("--------------------------------------------");
         		System.out.println("Cometa " +cometas[i] + " e grupo " + grupos[i] + " serão Abduzidos");
         		}else {
         			System.out.println("--------------------------------------------");
-        			System.out.println("Cometa " +cometas[i] + " e grupo " + grupos[i] + " NÃO SERÃO ANDUZIDOS");
+        			System.out.println("Cometa " +cometas[i] + " e grupo " + grupos[i] + " NÃO SERÃO ABDUZIDOS");
         			System.out.println("######### FICA PRA PRÓXIMA #########");
 				}
         	System.out.println("--------------------------------------------");
