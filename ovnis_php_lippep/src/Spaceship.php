@@ -6,7 +6,7 @@ class Spaceship {
 		$groupNameNumber = $this->getWordNumber($group->getName());
 		$cometNameNumber = $this->getWordNumber($group->getComet());
 
-		if($groupNameNumber % 45 == cometNameNumber % 45) {
+		if($groupNameNumber % 45 == $cometNameNumber % 45) {
 			return true;
 		}
 
