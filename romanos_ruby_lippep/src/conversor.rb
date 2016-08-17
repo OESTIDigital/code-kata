@@ -16,7 +16,7 @@ class Conversor
 		if romano?
 			return numero.to_arabic
 		else
-		    return numero.to_i.to_roman
+			return numero.to_i.to_roman
 		end
 	end
 end

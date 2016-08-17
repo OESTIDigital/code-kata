@@ -5,7 +5,7 @@ class Fixnum
 		n = self
 		roman = ""
 
-		Roman.MAPPING.each do |value, letter|
+		Roman.mapping.each do |value, letter|
 			roman << letter*(n / value)
 			n = n % value
 		end
